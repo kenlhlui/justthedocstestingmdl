@@ -1,2 +1,17 @@
+$link-color: #0066CC;
 $heading-color: #1E3765;
-$link-color: #007fa3;
+$h1-color: #1E3765;
+$h2-color: #007fa3;
+
+.site-title,
+body h1 {
+    color: $h1-color;
+    font-size: 200em;
+    font-weight: bold;
+}
+
+body h2 {
+    color: $h2-color;
+    font-size: 200em;
+    font-weight: bold;
+}
